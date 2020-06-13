@@ -15,3 +15,4 @@ cd nginx-1.18.0
 ./configure --add-module=/root/nginx-rtmp-module
 make
 make install
+apt-get install stunnel4 -y
